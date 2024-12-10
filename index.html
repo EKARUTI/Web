@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eric Karuti - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .portfolio-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Eric Karuti</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="#blog">Blog</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Eric Karuti, a passionate professional dedicated to creating innovative solutions. With a background in [your field or expertise], I focus on delivering high-quality work that makes a difference. I enjoy [brief personal interests or hobbies] and am always eager to learn and grow in my field.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Description of your project goes here. Highlight the features and goals achieved.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Description of your project goes here. Highlight the features and goals achieved.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Project 3">
+                <h3>Project Title 3</h3>
+                <p>Description of your project goes here. Highlight the features and goals achieved.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>Coming soon! Check back later for my latest thoughts and posts on [insert blog topics].</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Eric Karuti. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
